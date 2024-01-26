@@ -12,7 +12,7 @@ def search_hadith(query):
     search_results = []
 
     # Nama file basis data hadis yang baru
-    base_path = "C:/Users/fawai/Videos/Projects/Hadist/db/"
+    base_path = "db/"
     hadith_databases = [f"{base_path}{database}" for database in ["abu-daud.json", "ahmad.json", "bukhari.json", "darimi.json", "ibnu-majah.json", "malik.json", "muslim.json", "nasai.json", "tirmidzi.json"]]
 
     # Ekstrak kata kunci dari query

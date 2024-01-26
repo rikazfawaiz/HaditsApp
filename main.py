@@ -9,9 +9,6 @@ from kivymd.uix.list import MDList, TwoLineListItem
 from kivy.metrics import dp
 from kivy.core.text import LabelBase
 
-LabelBase.register(name='Arabic', fn_regular='font/mcs-book-title-5.TTF')
-
-
 
 class MyApp(MDApp):
 
@@ -58,8 +55,7 @@ class MyApp(MDApp):
                     multiline=True,
                     readonly=True,
                     halign="left",
-                    font_size=14,
-                    font_name='Arabic'
+                    font_size=14
                 ) 
             )
 
